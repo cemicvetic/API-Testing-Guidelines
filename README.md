@@ -27,3 +27,6 @@ There are APIs for Registration, Clients, Vendors, Services, and Orders.
 
 ## Header Validation
 * Verify that HTTP headers are as expected, including content-type, connection, cache-control, expires, access-control-allow-origin, keep-alive, HSTS, etc., according to the HTTP request type.
+
+## Performance Sanity
+* Response is received in a timely manner with respect to time expected for each request process time. Discuss with Dev team or PO.
