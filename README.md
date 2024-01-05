@@ -1,2 +1,3 @@
 # API-Testing-Guidelines
- A guide to executing API calls and validating responses
+
+There are APIs for Registration, Clients, Vendors, Services, and Orders.
