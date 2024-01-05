@@ -3,7 +3,7 @@
 There are APIs for Registration, Clients, Vendors, Services, and Orders.
 
 ## Execution of API Calls
-* Method Type: GET, POST, PUT, DELETE.
+* Method Type: GET, POST, PUT/PATCH, DELETE.
 * Endpoint: API service URL.
 * Headers: Necessary headers like Content-Type, Authorization.
 * Body: Data for POST/PUT requests.
@@ -20,3 +20,10 @@ There are APIs for Registration, Clients, Vendors, Services, and Orders.
 * Schema Compliance: Verify field names, types, and nested objects.
 * Data Integrity: Check if the field values are as expected.
 * Non-Nullable Fields: Validate that essential fields are not null.
+
+## State Validation
+* GET Requests: Verify no state change.
+* POST/DELETE/PATCH/PUT: Confirm correct reflection of action in the system.
+
+## Header Validation
+* Verify that HTTP headers are as expected, including content-type, connection, cache-control, expires, access-control-allow-origin, keep-alive, HSTS, etc., according to the HTTP request type.
