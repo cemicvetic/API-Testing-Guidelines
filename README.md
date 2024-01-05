@@ -14,3 +14,9 @@ There are APIs for Registration, Clients, Vendors, Services, and Orders.
     * 200 OK for GET requests. 
     * 201 for POST/PUT requests.
     * 200, 202, or 204 for DELETE operations.
+      
+## Payload Validation
+* JSON Format: Ensure response is in a well-formed JSON.
+* Schema Compliance: Verify field names, types, and nested objects.
+* Data Integrity: Check if the field values are as expected.
+* Non-Nullable Fields: Validate that essential fields are not null.
