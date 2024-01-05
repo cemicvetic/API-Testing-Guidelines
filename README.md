@@ -51,3 +51,36 @@ A comprehensive collection of API testing scripts is included, covering various 
 * G013 Login w/o Password: Tests login without a password.
 * G014 Registration with Existing Email: Checks registration with an already used email.
 * G015 Space trimming: Verifies that spaces are trimmed in user data.
+
+#### Client-Specific Tests
+* C01 CreateClient: Validates client creation.
+* C02 GetAllClients: Tests retrieval of all clients.
+* C03 GetClientByID: Retrieves a specific client by ID.
+* C04 GetClientByName: Searches for clients by name.
+* C05 UpdateClient: Tests updating client information.
+* C06 DeleteClient: Validates deletion of a client.
+
+#### Vendor-Specific Tests
+* V01 CreateVendor: Validates vendor creation.
+* V02 GetAllVendors: Tests retrieval of all vendors.
+* V03 GetVendorByID: Retrieves a specific vendor by ID.
+* V04 GetVendorByName: Searches for vendors by name.
+* V05 UpdateVendor: Tests updating vendor information.
+* V06 DeleteVendor: Validates deletion of a vendor.
+
+#### Service-Specific Tests
+* S01 CreateService: Validates service creation.
+* S02 GetAllServices: Tests retrieval of all services.
+* S03 GetServiceByID: Retrieves a specific service by ID.
+* S04 GetServiceByName: Searches for services by name.
+* S05 UpdateService: Tests updating service information.
+* S06 DeleteService: Validates deletion of a service.
+
+#### Order-Specific Tests
+* O01 CreateOrder: Validates order creation.
+* O02 GetAllOrders: Tests retrieval of all orders.
+* O03 GetOrderByID: Retrieves a specific order by ID.
+* O04 UpdateOrder: Tests updating order information.
+* O05 DeleteOrder: Validates deletion of an order.
+
+Each script is specifically designed to validate key functionalities and responses of the respective API endpoints.
