@@ -9,7 +9,7 @@ There are APIs for Registration, Clients, Vendors, Services, and Orders.
 * Body: Data for POST/PUT requests.
 
 ## Validation of Status Code
-* General Rule: All requests should return a 2XX status code.
+*  General Rule: All requests should return a 2XX status code.
    * Specific Status Codes:
     * 200 OK for GET requests. 
     * 201 for POST/PUT requests.
