@@ -11,9 +11,9 @@ There are APIs for Registration, Clients, Vendors, Services, and Orders.
 ## Validation of Status Code
 * General Rule: All requests should return a 2XX status code.
    * Specific Status Codes:
-    * 200 OK for GET requests. 
-    * 201 for POST/PUT requests.
-    * 200, 202, or 204 for DELETE operations.
+    *** 200 OK for GET requests. 
+    *** 201 for POST/PUT requests.
+    *** 200, 202, or 204 for DELETE operations.
       
 ## Payload Validation
 * JSON Format: Ensure response is in a well-formed JSON.
